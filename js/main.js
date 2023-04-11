@@ -6,28 +6,6 @@
 //   "./img/spider-7508942_960_720 (4).jpg",
 // ];
 
-// let arrleng = myArr.length;
-
-// var myImg = document.getElementById("slide");
-
-// let imgIndex = 0;
-
-// function nextFunc() {
-//   imgIndex++;
-//   if (imgIndex >= arrleng) {
-//     imgIndex = 0;
-//   }
-//   myImg.src = myArr[imgIndex];
-// }
-
-// function prevFunc() {
-//   imgIndex--;
-//   if (imgIndex < 0) {
-//     imgIndex = arrleng - 1;
-//   }
-//   myImg.src = myArr[imgIndex];
-// }
-
 myArr = [
   "https://cdn.pixabay.com/photo/2023/03/22/20/16/muffin-7870491_960_720.jpg",
   "https://cdn.pixabay.com/photo/2023/01/24/17/27/flower-7741687_960_720.jpg",
@@ -41,9 +19,9 @@ console.log(arrleng);
 
 var myImg = document.getElementById("slide");
 
-let buttonArr = document.getElementsByClassName("btn");
+let buttonArr = document.getElementsByTagName("button");
 // test
-console.log(myImg);
+console.log(buttonArr);
 
 let imgIndex = 0;
 
